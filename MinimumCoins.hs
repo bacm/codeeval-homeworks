@@ -1,7 +1,4 @@
 import System.Environment (getArgs)
-import Data.List.Split (splitOn)
-import Numeric (showIntAtBase)
-import Data.Char (intToDigit)
 
 compute x pieces 
         | x == 0 = show $ pieces
