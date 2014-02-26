@@ -1,5 +1,5 @@
 import System.Environment (getArgs)
-import Text.Regex.Base
+import Text.Regex.Posix
 
 f :: String -> Double
 f s = read (s)
